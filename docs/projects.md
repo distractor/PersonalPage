@@ -8,7 +8,7 @@
     It will also support fluid-solid interaction simulation using the smoothed particle hydrodynamics.
 
     <figure>
-      ![FEM Mesh for Paraglider](files/mesh.png){ width=100%}
+      ![FEM Mesh for Paraglider](files/mesh.png){ width=70%}
       <figcaption>Figure: Example of an FEM mesh for a paraglider.</figcaption>
     </figure>
 
@@ -18,7 +18,7 @@
     The add-in is designed to check the line lengths on paragliders, providing valuable insights for quality control and safety check.
 
     <figure>
-      ![VSTO Add-In](files/wingchekcer.png){ width=100%}
+      ![VSTO Add-In](files/wingchekcer.png){ width=70%}
       <figcaption>Figure: Screenshot of VSTO Add-In.</figcaption>
     </figure>
 
@@ -32,7 +32,7 @@
     Dynamic Thermal Rating (DTR) systems, which monitor conductor temperatures and estimate future trends using weather and load forecasts, are a key tool in this process. However, DTR introduces questions about the accuracy and uncertainty of thermal assessments, as well as the acceptable level of risk. Our uncertainty module for DTR was developed to address these concerns, based on data from two transmission line locations in Slovenia: Podlog and Bevkov vrh.
 
     <figure>
-      ![DTR Uncertainty Module Plot](files/operato.png){ width=100%}
+      ![DTR Uncertainty Module Plot](files/operato.png){ width=70%}
       <figcaption>Figure: DTR uncertainty assessment showing calculated ampacity with lower and upper limits for the Obersielach-Podlog transmission line on July 12, 2020.</figcaption>
     </figure>
 
@@ -43,7 +43,7 @@
     This project focused on evaluating models used to downscale mesoscale meteorological data for complex terrain using diagnostic or prognostic models. The study was particularly focused on temperature, wind fields, and solar irradiation. The CALMET model was selected and implemented for performance analysis within a Python framework, offering significant improvements in predicting localized weather patterns.
 
     <figure>
-      ![Downscaling Weather Data](files/downscaling.png){ width=100%}
+      ![Downscaling Weather Data](files/downscaling.png){ width=70%}
       <figcaption>Figure: Error comparison of downscaled fields. Black line represents the mesoscopic model ALADIN, and the blue line represents the CALMET implementation.</figcaption>
     </figure>
 
@@ -51,6 +51,6 @@
     [Medusa](http://e6.ijs.si/medusa/) is a C++ library for solving partial differential equations (PDEs) with an intuitive, coordinate-free syntax. This library supports a wide range of problems including linear elasticity, plastic deformation, fluid flow, heat transfer, and moving boundary problems. It also includes implementations of adaptive solution procedures and a comprehensive study of approximation methods.
 
     <figure>
-      ![Natural Convection from a Heated Cylinder](files/natural_convection.png){ width=100%}
+      ![Natural Convection from a Heated Cylinder](files/natural_convection.png){ width=70%}
       <figcaption>Figure: Natural convection from a heated cylinder.</figcaption>
     </figure>

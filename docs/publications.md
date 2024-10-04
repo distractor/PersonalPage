@@ -14,10 +14,10 @@ You can also find my publications on my
     [ScienceDirect link](https://www.sciencedirect.com/science/article/pii/S0307904X24004670?via%3Dihub), DOI: [10.1016/j.apm.2024.115714](https://dx.doi.org/10.1016/j.apm.2024.115714).  
     [COBISS.SI-ID 208700163](https://plus.cobiss.net/cobiss/si/en/bib/208700163) 
 
-    [Download PDF](files/papers/2024-plasticity.pdf)
+    [**Download PDF**](files/papers/2024-plasticity.pdf)
     ??? quote "BibTex"
         ```tex
-            @article{STRNISA2025115714,
+        @article{STRNISA2025115714,
             title = {Numerical analysis of small-strain elasto-plastic deformation using local Radial Basis Function approximation with Picard iteration},
             journal = {Applied Mathematical Modelling},
             volume = {137},
@@ -29,7 +29,7 @@ You can also find my publications on my
             author = {Filip Strniša and Mitja Jančič and Gregor Kosec},
             keywords = {Meshless, Plasticity, Isotropic hardening, von Mises model, Picard iteration, RBF-FD, Plane strain},
             abstract = {In this paper, we discuss a von Mises plasticity model with nonlinear isotropic hardening assuming small strains in a plane strain example of internally pressurised thick-walled cylinder subjected to different loading conditions. The elastic deformation is modelled using the Navier-Cauchy equation. In regions where the von Mises stress exceeds the yield stress, corrections are made locally through a return mapping algorithm. We present a novel method that uses a Radial Basis Function-Finite Difference (RBF-FD) approach with Picard iteration to solve the system of nonlinear equations arising from plastic deformation. This technique eliminates the need to stabilise the divergence operator and avoids special positioning of the boundary nodes, while preserving the elegance of the meshless discretisation and avoiding the introduction of new parameters that would require tuning. The results of the proposed method are compared with analytical and Finite Element Method (FEM) solutions. The results show that the proposed method achieves comparable accuracy to FEM while offering significant advantages in the treatment of complex geometries without the need for conventional meshing or special treatment of boundary nodes or differential operators.}
-            }
+        }
         ```
 
 !!! info "Strong form mesh-free hp-adaptive solution of linear elasticity problem"
@@ -39,10 +39,10 @@ You can also find my publications on my
     [Springer Link](https://link.springer.com/article/10.1007/s00366-023-01843-6), DOI: [10.1007/s00366-023-01843-6](https://dx.doi.org/10.1007/s00366-023-01843-6).  
     [COBISS.SI-ID 153678339](https://plus.cobiss.net/cobiss/si/en/bib/153678339)
 
-    [Download PDF](files/papers/2023-05-27-hp_adaptivity.pdf)
+    [**Download PDF**](files/papers/2023-05-27-hp_adaptivity.pdf)
     ??? quote "BibTex"
         ```tex
-            @article{Jancic2023,
+        @article{Jancic2023,
             author   = {Jan{\v{c}}i{\v{c}}, Mitja
                         and Kosec, Gregor},
             title    = {Strong form mesh-free hp-adaptive solution of linear elasticity problem},
@@ -54,7 +54,7 @@ You can also find my publications on my
             issn     = {1435-5663},
             doi      = {10.1007/s00366-023-01843-6},
             url      = {https://doi.org/10.1007/s00366-023-01843-6}
-            }
+        }
         ```
 
 !!! info "Meshless interface tracking for the simulation of dendrite envelope growth"
@@ -64,10 +64,10 @@ You can also find my publications on my
     DOI: [10.1016/j.jcp.2024.112973](https://dx.doi.org/10.1016/j.jcp.2024.112973).  
     [COBISS.SI-ID 191242243](https://plus.cobiss.net/cobiss/si/en/bib/191242243)
 
-    [Download PDF](files/papers/2024-03-29-dendrite.pdf)
+    [**Download PDF**](files/papers/2024-03-29-dendrite.pdf)
     ??? quote "BibTex"
         ```tex
-            @article{JANCIC2024112973,
+        @article{JANCIC2024112973,
             title = {Meshless interface tracking for the simulation of dendrite envelope growth},
             journal = {Journal of Computational Physics},
             volume = {507},
@@ -79,7 +79,7 @@ You can also find my publications on my
             author = {Mitja Jančič and Miha Založnik and Gregor Kosec},
             keywords = {GEM, Meshless, Moving boundary, Dendrite, RBF-FD, Solidification},
             abstract = {The growth of dendritic grains during solidification is often modelled using the Grain Envelope Model (GEM), in which the envelope of the dendrite is an interface tracked by the Phase Field Interface Capturing (PFIC) method. In the PFIC method, an phase-field equation is solved on a fixed mesh to track the position of the envelope. While being versatile and robust, PFIC introduces certain numerical artefacts. In this work, we present an alternative approach for the solution of the GEM that employs a Meshless (sharp) Interface Tracking (MIT) formulation, which uses direct, artefact-free interface tracking. In the MIT, the envelope (interface) is defined as a moving domain boundary and the interface-tracking nodes are boundary nodes for the diffusion problem solved in the domain. To increase the accuracy of the method for the diffusion-controlled moving-boundary problem, an h-adaptive spatial discretization is used, thus, the node spacing is refined in the vicinity of the envelope. MIT combines a parametric surface reconstruction, a mesh-free discretization of the parametric surfaces and the space enclosed by them, and a high-order approximation of the partial differential operators and of the solute concentration field using radial basis functions augmented with monomials. The proposed method is demonstrated on a two-dimensional h-adaptive solution of the diffusive growth of dendrite and evaluated by comparing the results to the PFIC approach. It is shown that MIT can reproduce the results calculated with PFIC, that it is convergent and that it can capture more details in the envelope shape than PFIC with a similar spatial discretization.}
-            }
+        }
         ```
 
 !!! info "Some observations regarding the RBF-FD approximation accuracy dependence on stencil size"
@@ -89,10 +89,10 @@ You can also find my publications on my
     [Repozitorij Univerze v Ljubljani – RUL](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=156334), DOI: [10.1016/j.jocs.2024.102284](https://dx.doi.org/10.1016/j.jocs.2024.102284).  
     [COBISS.SI-ID 194478851](https://plus.cobiss.net/cobiss/si/en/bib/194478851)
 
-    [Download PDF](files/papers/2024-04-27-stencil_size.pdf)
+    [**Download PDF**](files/papers/2024-04-27-stencil_size.pdf)
     ??? quote "BibTex"
         ```tex
-            @article{KOLARPOZUN2024102284,
+        @article{KOLARPOZUN2024102284,
             title = {Some observations regarding the RBF-FD approximation accuracy dependence on stencil size},
             journal = {Journal of Computational Science},
             volume = {79},
@@ -104,7 +104,7 @@ You can also find my publications on my
             author = {Andrej Kolar-Požun and Mitja Jančič and Miha Rot and Gregor Kosec},
             keywords = {Meshless, Stencil, RBF-FD, PHS},
             abstract = {When solving partial differential equations on scattered nodes using the Radial Basis Function-generated Finite Difference (RBF-FD) method, one of the parameters that must be chosen is the stencil size. Focusing on Polyharmonic Spline RBFs with monomial augmentation, we observe that it affects the approximation accuracy in a particularly interesting way — the solution error oscillates under increasing stencil size. We find that we can connect this behaviour with the spatial dependence of the signed approximation error. Based on this observation we are able to introduce a numerical quantity that could indicate whether a given stencil size is locally optimal. This work is an extension of our ICCS 2023 conference paper (Kolar-Požun et al., 2023).}
-            }
+        }
         ```
 
 !!! info "Spatially dependent node regularity in meshless approximation of partial differential equations"
@@ -114,10 +114,10 @@ You can also find my publications on my
     DOI: [10.1016/j.jocs.2024.102306](https://dx.doi.org/10.1016/j.jocs.2024.102306).  
     [COBISS.SI-ID 195505923](https://plus.cobiss.net/cobiss/si/en/bib/195505923)
 
-    [Download PDF](files/papers/2024-04-27-node_regularity.pdf)
+    [**Download PDF**](files/papers/2024-04-27-node_regularity.pdf)
     ??? quote "BibTex"
         ```tex
-            @article{ROT2024102306,
+        @article{ROT2024102306,
             title = {Spatially dependent node regularity in meshless approximation of partial differential equations},
             journal = {Journal of Computational Science},
             volume = {79},
@@ -129,7 +129,7 @@ You can also find my publications on my
             author = {Miha Rot and Mitja Jančič and Gregor Kosec},
             keywords = {LRBFCM, RBF-FD, RBF, Meshless, Node regularity, Navier–Stokes equation, Natural convection, Navier-Cauchy equation, Boussinesq’s problem},
             abstract = {In this paper, we address a way to reduce the total computational cost of meshless approximation by reducing the required stencil size through spatially varying computational node regularity. Rather than covering the entire domain with scattered nodes, only regions with geometric details are covered with scattered nodes, while the rest of the domain is discretized with regular nodes. A simpler approximation can be used in regions covered by regular nodes, effectively reducing the required stencil size and computational cost compared to the approximation on scattered nodes where a set of polyharmonic splines is added to ensure convergent behaviour. This paper is an extended version of conference paper entitled “Spatially-varying meshless approximation method for enhanced computational efficiency” (Jančič et al., 2023) presented at “International Conference on Computational Science (ICCS) 2023”. The paper is extended with discussion on development and implementation of a hybrid regular-scattered node positioning algorithm (HyNP). The performance of the proposed HyNP algorithm is analysed in terms of separation distance and maximal empty sphere radius. Furthermore, it is demonstrated that HyNP nodes can be used for solving problems from fluid flow and linear elasticity, both in 2D and 3D, using meshless methods. The extension also provides additional analyses of computational efficiency and accuracy of the numerical solution obtained on the spatially-variable regularity of discretization nodes. In particular, different levels of refinement aggressiveness and scattered layer widths are considered to exploit the computational efficiency gains offered by such solution procedure.}
-            }
+        }
         ```
 
 !!! info "Meshless adaptive solution procedure for efficient solving of partial differential equations (Doctoral Dissertation)"
@@ -138,10 +138,10 @@ You can also find my publications on my
     Ljubljana: [M. Jančič], 2024. XI, 125 pp., illustrated.  
     [COBISS.SI-ID 191223043](https://plus.cobiss.net/cobiss/si/en/bib/191223043)
 
-    [Download PDF](files/papers/phd.pdf)
+    [**Download PDF**](files/papers/phd.pdf)
     ??? quote "BibTex"
         ```tex
-            @phdthesis{mythesis,
+        @phdthesis{mythesis,
             title        = {Meshless Adaptive Solution Procedure for Efficient Solving of Partial Differential Equations},
             author       = {Mitja Jančič},
             year         = 2024,
@@ -149,7 +149,7 @@ You can also find my publications on my
             address      = {Ljubljana, Slovenia},
             school       = {International Postgraduate School Jozef Stefan},
             type         = {PhD thesis}
-            }
+        }
         ```
 
 !!! info "Microscale meteorological models over complex terrain"
@@ -170,7 +170,7 @@ You can also find my publications on my
 
     ??? quote "BibTex"
         ```tex
-            @InProceedings{10.1007/978-3-031-36027-5_40,
+        @InProceedings{10.1007/978-3-031-36027-5_40,
             author="Kolar-Po{\v{z}}un, Andrej
             and Jan{\v{c}}i{\v{c}}, Mitja
             and Rot, Miha
@@ -189,7 +189,7 @@ You can also find my publications on my
             pages="515--522",
             abstract="When solving partial differential equations on scattered nodes using the Radial Basis Function generated Finite Difference (RBF-FD) method, one of the parameters that must be chosen is the stencil size. Focusing on Polyharmonic Spline RBFs with monomial augmentation, we observe that it affects the approximation accuracy in a particularly interesting way - the solution error oscillates under increasing stencil size. We find that we can connect this behaviour with the spatial dependence of the signed approximation error. Based on this observation we are then able to introduce a numerical quantity that indicates whether a given stencil size is locally optimal.",
             isbn="978-3-031-36027-5"
-            }
+        }
         ```
 !!! info "Spatially-varying meshless approximation method for enhanced computational efficiency"
     JANČIČ, Mitja, ROT, Miha, KOSEC, Gregor.  
@@ -200,7 +200,7 @@ You can also find my publications on my
 
     ??? quote "BibTex"
         ```tex
-            @InProceedings{10.1007/978-3-031-36027-5_39,
+        @InProceedings{10.1007/978-3-031-36027-5_39,
             author="Jan{\v{c}}i{\v{c}}, Mitja
             and Rot, Miha
             and Kosec, Gregor",
@@ -218,7 +218,7 @@ You can also find my publications on my
             pages="500--514",
             abstract="In this paper, we address a way to reduce the total computational cost of meshless approximation by reducing the required stencil size through spatially varying computational node regularity. Rather than covering the entire domain with scattered nodes, only regions with geometric details are covered with scattered nodes, while the rest of the domain is discretized with regular nodes. A simpler approximation using solely monomial basis can be used in regions covered by regular nodes, effectively reducing the required stencil size and computational cost compared to the approximation on scattered nodes where a set of polyharmonic splines is added to ensure convergent behaviour.",
             isbn="978-3-031-36027-5"
-            }
+        }
         ```
 
 !!! info "*hp*-adaptive RBF-FD method"
@@ -237,10 +237,10 @@ You can also find my publications on my
     DOI: [10.1109/TPWRS.2022.3144740](https://dx.doi.org/10.1109/TPWRS.2022.3144740).  
     [COBISS.SI-ID 95914243](https://plus.cobiss.net/cobiss/si/en/bib/95914243)
 
-    [Download PDF](files/papers/2022-01-25-dtr.pdf)
+    [**Download PDF**](files/papers/2022-01-25-dtr.pdf)
     ??? quote "BibTex"
         ```tex
-            @ARTICLE{9693185,
+        @ARTICLE{9693185,
             author={Rashkovska, Aleksandra and Jančič, Mitja and Depolli, Matjaž and Kosmač, Janko and Kosec, Gregor},
             journal={IEEE Transactions on Power Systems}, 
             title={Uncertainty Assessment of Dynamic Thermal Line Rating for Operational Use at Transmission System Operators}, 
@@ -249,7 +249,8 @@ You can also find my publications on my
             number={6},
             pages={4642-4650},
             keywords={Weather forecasting;Uncertainty;Temperature measurement;Transmission line measurements;Probability distribution;Predictive models;Monte Carlo methods;Ampacity;dynamic thermal rating;transmission line;transmission system operator;uncertainty;forecast;probability distribution function;Monte Carlo},
-            doi={10.1109/TPWRS.2022.3144740}}
+            doi={10.1109/TPWRS.2022.3144740}
+        }
         ```
 
 !!! info "A meshless solution of a small-strain plasticity problem"
@@ -259,10 +260,10 @@ You can also find my publications on my
     [IEEE link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9803585), DOI: [10.23919/MIPRO55190.2022.9803585](https://dx.doi.org/10.23919/MIPRO55190.2022.9803585).  
     [COBISS.SI-ID 114153987](https://plus.cobiss.net/cobiss/si/en/bib/114153987)
 
-    [Download PDF](files/papers/2022-06-27-plasticity.pdf)
+    [**Download PDF**](files/papers/2022-06-27-plasticity.pdf)
     ??? quote "BibTex"
         ```tex
-            @INPROCEEDINGS{9803585,
+        @INPROCEEDINGS{9803585,
             author={Strniša, Filip and Jančič, Mitja and Kosec, Gregor},
             booktitle={2022 45th Jubilee International Convention on Information, Communication and Electronic Technology (MIPRO)}, 
             title={A Meshless Solution of a Small-Strain Plasticity Problem}, 
@@ -270,7 +271,8 @@ You can also find my publications on my
             volume={},
             number={},
             pages={257-262},
-            doi={10.23919/MIPRO55190.2022.9803585}}
+            doi={10.23919/MIPRO55190.2022.9803585}
+        }
         ```
 
 !!! info "Stability analysis of RBF-FD and WLS based local strong form meshless methods on scattered nodes"
@@ -280,10 +282,10 @@ You can also find my publications on my
     [IEEE link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9803334), DOI: [10.23919/MIPRO55190.2022.9803334](https://dx.doi.org/10.23919/MIPRO55190.2022.9803334).  
     [COBISS.SI-ID 114047235](https://plus.cobiss.net/cobiss/si/en/bib/114047235)
 
-    [Download PDF](files/papers/2022-06-27-stability.pdf)
+    [**Download PDF**](files/papers/2022-06-27-stability.pdf)
     ??? quote "BibTex"
         ```tex
-            @INPROCEEDINGS{9803334,
+        @INPROCEEDINGS{9803334,
             author={Jančič, Mitja and Kosec, Gregor},
             booktitle={2022 45th Jubilee International Convention on Information, Communication and Electronic Technology (MIPRO)}, 
             title={Stability analysis of RBF-FD and WLS based local strong form meshless methods on scattered nodes}, 
@@ -291,7 +293,8 @@ You can also find my publications on my
             volume={},
             number={},
             pages={275-280},
-            doi={10.23919/MIPRO55190.2022.9803334}}
+            doi={10.23919/MIPRO55190.2022.9803334}
+        }
         ```
 
 ## 2021
@@ -303,10 +306,10 @@ You can also find my publications on my
     DOI: [10.1007/s10915-020-01401-y](https://dx.doi.org/10.1007/s10915-020-01401-y).  
     [COBISS.SI-ID 52715011](https://plus.cobiss.net/cobiss/si/en/bib/52715011)
 
-    [Download PDF](files/papers/2021-02-17-monomial.pdf)
+    [**Download PDF**](files/papers/2021-02-17-monomial.pdf)
     ??? quote "BibTex"
         ```tex
-            @article{janvcivc2021monomial,
+        @article{janvcivc2021monomial,
             title={Monomial augmentation guidelines for rbf-fd from accuracy versus computational time perspective},
             author={Jan{\v{c}}i{\v{c}}, Mitja and Slak, Jure and Kosec, Gregor},
             journal={Journal of Scientific Computing},
@@ -315,7 +318,7 @@ You can also find my publications on my
             pages={1--18},
             year={2021},
             publisher={Springer}
-            }
+        }
         ```
         
 !!! info "*p*-refined RBF-FD solution of a Poisson problem"
@@ -325,17 +328,17 @@ You can also find my publications on my
     [IEEE link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9566401).  
     [COBISS.SI-ID 76379395](https://plus.cobiss.net/cobiss/si/en/bib/76379395)
 
-    [Download PDF](files/papers/2021-10-21-prefined.pdf)
+    [**Download PDF**](files/papers/2021-10-21-prefined.pdf)
     ??? quote "BibTex"
         ```tex
-            @inproceedings{janvcivc2021p,
+        @inproceedings{janvcivc2021p,
             title={p-refined RBF-FD solution of a Poisson problem},
             author={Jan{\v{c}}i{\v{c}}, Mitja and Slak, Jure and Kosec, Gregor},
             booktitle={2021 6th International Conference on Smart and Sustainable Technologies (SpliTech)},
             pages={01--06},
             year={2021},
             organization={IEEE}
-            }
+        }
         ```
 !!! info "Discretized boundary surface reconstruction"
     JANČIČ, Mitja, CVRTILA, Viktor, KOSEC, Gregor.  
@@ -343,17 +346,17 @@ You can also find my publications on my
     In: SKALA, Karolj (ed.). *MIPRO 2021: 44th International Convention, September 27 - October 1, 2021, Opatija, Croatia: proceedings*. Rijeka: Croatian Society for Information and Communication Technology, Electronics and Microelectronics - MIPRO, 2021. pp. 304-309. MIPRO. ISSN 1847-3946.  
     [COBISS.SI-ID 85509635](https://plus.cobiss.net/cobiss/si/en/bib/85509635)
 
-    [Download PDF](files/papers/2021-10-01-reconstruction.pdf)
+    [**Download PDF**](files/papers/2021-10-01-reconstruction.pdf)
     ??? quote "BibTex"
         ```tex
-            @inproceedings{janvcivc2021discretized,
+        @inproceedings{janvcivc2021discretized,
             title={Discretized boundary surface reconstruction},
             author={Jan{\v{c}}i{\v{c}}, Mitja and Cvrtila, Viktor and Kosec, Gregor},
             booktitle={2021 44th International Convention on Information, Communication and Electronic Technology (MIPRO)},
             pages={278--283},
             year={2021},
             organization={IEEE}
-            }
+        }
         ``` 
 ## 2020
 
@@ -364,17 +367,17 @@ You can also find my publications on my
     [IEEE link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9245221), DOI: [10.23919/MIPRO48935.2020.9245221](https://dx.doi.org/10.23919/MIPRO48935.2020.9245221).  
     [COBISS.SI-ID 36556291](https://plus.cobiss.net/cobiss/si/en/bib/36556291)
 
-    [Download PDF](files/papers/2020-11-06-gpu.pdf)
+    [**Download PDF**](files/papers/2020-11-06-gpu.pdf)
     ??? quote "BibTex"
         ```tex
-            @inproceedings{janvcivc2020gpu,
+        @inproceedings{janvcivc2020gpu,
             title={GPU accelerated RBF-FD solution of Poisson’s equation},
             author={Jan{\v{c}}i{\v{c}}, Mitja and Slak, Jure and Kosec, Gregor},
             booktitle={2020 43rd International Convention on Information, Communication and Electronic Technology (MIPRO)},
             pages={214--218},
             year={2020},
             organization={IEEE}
-            }
+        }
         ``` 
 
 !!! info "Konceptualna rešitev ocenjevanja negotovosti dinamičnega termičnega toka kot rezultata DTR procesa"
@@ -393,10 +396,10 @@ You can also find my publications on my
     DOI: [10.1016/j.ifacol.2018.06.197](https://dx.doi.org/10.1016/j.ifacol.2018.06.197).  
     [COBISS.SI-ID 31482919](https://plus.cobiss.net/cobiss/si/en/bib/31482919)
 
-    [Download PDF](files/papers/2018-06-01-gaussian.pdf)
+    [**Download PDF**](files/papers/2018-06-01-gaussian.pdf)
     ??? quote "BibTex"
         ```tex
-            @article{janvcivc2018identification,
+        @article{janvcivc2018identification,
             title={Identification of atmospheric variable using Deep Gaussian processes},
             author={Jan{\v{c}}i{\v{c}}, Mitja and Kocijan, Ju{\v{s}} and Gra{\v{s}}i{\v{c}}, Bo{\v{s}}tjan},
             journal={IFAC-PapersOnLine},
@@ -405,7 +408,7 @@ You can also find my publications on my
             pages={43--48},
             year={2018},
             publisher={Elsevier}
-            }
+        }
         ``` 
 
 ## 2017
@@ -416,14 +419,14 @@ You can also find my publications on my
     Ljubljana: [M. Jančič], 2017. XXII, 66 pp., illustrated.  
     [COBISS.SI-ID 31169319](https://plus.cobiss.net/cobiss/si/en/bib/31169319)
 
-    [Download PDF](files/papers/masters.pdf)
+    [**Download PDF**](files/papers/masters.pdf)
     ??? quote "BibTex"
         ```tex
-            @article{janvcivc2017identifikacija,
+        @article{janvcivc2017identifikacija,
             title={Identifikacija dinami{\v{c}}nih sistemov z globokimi Gaussovimi procesi},
             author={Jan{\v{c}}i{\v{c}}, Mitja},
             year={2017}
-            }
+        }
         ``` 
 
 ## 2016

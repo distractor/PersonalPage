@@ -16,10 +16,8 @@ theme:
   icon:
     logo: simple/smart
   favicon: files/logo.png
-  palette:
-    primary: blue grey
-
-
+  palette: 
+    primary: black
 
 copyright: Copyright &copy; 2024 Mitja Jančič
 

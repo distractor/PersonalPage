@@ -10,11 +10,8 @@ I earned my PhD at the [Parallel and Distributed Systems Laboratory](http://e6.i
 - **Efficient Solving of PDEs**: My main work involved the design and implementation of an *hp*-adaptive solution procedure for improved accuracy and computational efficiency.
 - **Collaborative Projects**: I participated in several applied projects utilizing the Medusa library for practical problem-solving in scientific computing.
 
-You can:
-
-- Explore my [PhD dissertation here](files/papers/phd.pdf),
-- Check out my [publications here](publications.md),
-- Read more about my research interests [here](research.md).
+[Check out my publications](publications.md){ .md-button .md-button--primary }
+[Read more about my research interests](research.md){ .md-button .md-button--primary }
 
 ## Freelance Software Development
 
