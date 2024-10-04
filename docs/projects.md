@@ -8,7 +8,7 @@
     It will also support fluid-solid interaction simulation using the smoothed particle hydrodynamics.
 
     <figure>
-      <img src='PersonalPage/files/mesh.png' width="100%" alt="FEM Mesh for Paraglider">
+      <img src="files/mesh.png" width="100%" alt="FEM Mesh for Paraglider">
       <figcaption>Figure: Example of an FEM mesh for a paraglider.</figcaption>
     </figure>
 
@@ -18,7 +18,7 @@
     The add-in is designed to check the line lengths on paragliders, providing valuable insights for quality control and safety check.
 
     <figure>
-      <img src='files/wingchekcer.png' width="100%" alt="FEM Mesh for Paraglider">
+      <img src='files/wingchekcer.png' width="100%" alt="VSTO Add-in">
       <figcaption>Figure: Screenshot of VSTO Add-In.</figcaption>
     </figure>
 
