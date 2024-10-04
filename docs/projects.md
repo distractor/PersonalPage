@@ -8,7 +8,7 @@
     It will also support fluid-solid interaction simulation using the smoothed particle hydrodynamics.
 
     <figure>
-      <img src='files/mesh.png' width="100%" alt="FEM Mesh for Paraglider">
+      <img src='PersonalPage/files/mesh.png' width="100%" alt="FEM Mesh for Paraglider">
       <figcaption>Figure: Example of an FEM mesh for a paraglider.</figcaption>
     </figure>
 
