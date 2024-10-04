@@ -11,6 +11,7 @@ I earned my PhD at the [Parallel and Distributed Systems Laboratory](http://e6.i
 - **Collaborative Projects**: I participated in several applied projects utilizing the Medusa library for practical problem-solving in scientific computing.
 
 [Check out my publications](publications.md){ .md-button .md-button--primary }
+
 [Read more about my research interests](research.md){ .md-button .md-button--primary }
 
 ## Freelance Software Development
