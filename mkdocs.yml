@@ -66,6 +66,11 @@ plugins:
 extra_css:
   - stylesheets/custom.css
 
+extra:
+  analytics:
+    provider: google
+    property: G-DWFZQKWEGD
+
 nav:
   - Home: index.md
   - About me: about.md
