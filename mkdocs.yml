@@ -13,8 +13,7 @@ theme:
     - navigation.path
     - toc.integrate
   language: en 
-  icon:
-    logo: simple/smart
+  logo: files/logo_transparent.svg
   favicon: files/logo.png
   palette: 
     primary: black
