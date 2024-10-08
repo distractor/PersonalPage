@@ -56,17 +56,6 @@ extra:
       link: https://github.com/distractor
     - icon: simple/gitlab
       link: https://gitlab.com/mjancic
-
-
-plugins:
-  - glightbox
-  - search
-  - tags
-
-extra_css:
-  - stylesheets/custom.css
-
-extra:
   analytics:
     provider: google
     property: G-DWFZQKWEGD
@@ -78,6 +67,14 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 
+
+plugins:
+  - glightbox
+  - search
+  - tags
+
+extra_css:
+  - stylesheets/custom.css
 
 nav:
   - Home: index.md
