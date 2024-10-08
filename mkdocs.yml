@@ -14,7 +14,7 @@ theme:
     - toc.integrate
   language: en 
   logo: files/logo_transparent.svg
-  favicon: files/logo.png
+  favicon: files/logo.svg
   palette: 
     primary: black
   
